@@ -1,0 +1,91 @@
+.Task-container {
+    max-width: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.Task-header input[type="text"] {
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #111111;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #007bff;
+   
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    font-size: 20px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+table th {
+    background: rgb(183, 181, 181);
+    font-weight: bold;
+}
+
+table td {
+    font-size: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.addtask-btn ,.inactivetask-btn{
+    border:2px solid black;
+    width:250px;
+    text-align:center;
+    padding:20px  !important;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+button a {
+    text-decoration: none;
+}
+
+button:first-of-type {
+    margin-right: 8px;
+}
+button:last-of-type {
+    margin-left: 8px;
+}
+
+

@@ -1,0 +1,66 @@
+.user-container {
+    margin:  auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.user-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.users-count{
+    font-weight: bold;
+    text-align: center;
+    color:red;
+    margin:10px;
+    padding:10px;
+    font-size:30px;
+}
+.adduser-btn,.inactiveuser-btn{
+    border:2px solid black;
+    width:200px;
+    text-align:center;
+    padding:20px  !important;
+    color:black !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}

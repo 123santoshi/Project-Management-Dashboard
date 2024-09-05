@@ -1,0 +1,46 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background: rgb(216, 216, 238);
+  }
+  
+  .homepage-heading {
+    margin: 0;
+  }
+  
+  .home-navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .home-navbar ul li {
+    margin: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border:2px solid rgb(117, 116, 116);
+    padding:10px;
+    width:250px;
+    font-weight: bold;
+  }
+  
+  .home-navbar ul li:hover {
+    cursor: pointer;
+    background: lightblue;
+  }
+
+   li a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  
+  
